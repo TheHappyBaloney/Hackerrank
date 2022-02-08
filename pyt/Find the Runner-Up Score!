@@ -29,6 +29,10 @@
 #The Final code
 
 if __name__ == '__main__':
-    n = int(input())
-    arr = map(int, input().split())
+    N = int(input())
+    O = input().split(' ')
+    P = list(map(int, O))
+    Q = set(P)
+    R = sorted(list(Q))
+    print (R[-2])
     
