@@ -1,0 +1,4 @@
+Query the difference between the maximum and minimum populations in CITY.
+
+Select (max(Population) - min(Population))
+From City
