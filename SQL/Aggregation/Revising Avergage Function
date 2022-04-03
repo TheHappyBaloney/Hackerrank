@@ -1,0 +1,5 @@
+Query the average population of all cities in CITY where District is California.
+
+Select Avg(Population)
+From City
+where District = "California"
